@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Hello {
 
     @GetMapping("/hello")
-    public void hello() {
-        System.out.println(1);
+    public String hello() {
+        return "daf";
     }
 
 }
